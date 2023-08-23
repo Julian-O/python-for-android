@@ -20,8 +20,6 @@ BROKEN_RECIPES_PYTHON3 = set([
     'psycopg2',
     # most likely some setup in the Docker container, because it works in host
     'pyjnius', 'pyopenal',
-    # SyntaxError: invalid syntax (Python2)
-    'storm',
     # mpmath package with a version >= 0.19 required
     'sympy',
     'vlc',
